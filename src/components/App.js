@@ -59,7 +59,6 @@ class App extends Component {
     return (
       <div className="App__parent">
         <Header />
-
         <section className="App__content">
 
           <Compose createPostFn={this.createPost}/>
